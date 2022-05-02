@@ -555,12 +555,12 @@ const controlRecipes = async function() {
         _recipeViewJsDefault.default.renderSpinner();
         //update results view to mark selected search result
         _resultsViewJsDefault.default.update(_modelJs.getSearchResultsPage());
+        // update bookmarks view
+        _bookmarksViewJsDefault.default.update(_modelJs.state.bookmarks);
         //loading recipe
         await _modelJs.loadRecipe(id);
         //rendering recipe
         _recipeViewJsDefault.default.render(_modelJs.state.recipe);
-        // update bookmarks view
-        _bookmarksViewJsDefault.default.update(_modelJs.state.bookmarks);
     } catch (err) {
         //console.log(err);
         _recipeViewJsDefault.default.renderError();
@@ -1772,7 +1772,7 @@ const loadRecipe = async function(id) {
 const loadSearchResults = async function(query) {
     try {
         state.search.query = query;
-        const data = await _helperJs.AJAX(`${_configJs.API_URL}?search=${query}?key=${_configJs.KEY}`);
+        const data = await _helperJs.AJAX(`${_configJs.API_URL}?search=${query}&key=${_configJs.KEY}`);
         console.log(data);
         state.search.results = data.data.recipes.map((rec)=>{
             return {
