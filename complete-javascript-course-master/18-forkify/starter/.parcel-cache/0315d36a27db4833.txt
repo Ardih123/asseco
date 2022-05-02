@@ -15,7 +15,7 @@
 193C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\posthtml\node_modules\posthtml-parser\dist\chunk.2UQLUWPH.js132956311315173756 0
 159C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\actual\date\now.js132956381978755654 0
 164C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\lmdb\dependencies\lz4\lib\lz4.c132956311327243772 0
-124C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\dist132959712661685217 1
+124C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\dist132959742258385813 1
 153C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\stable\array132956381997785673 1
 169C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\yaml\browser\dist\Schema-e94716c8.js132956311327453794 0
 165C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\css-what\lib\commonjs\parse.d.ts132956311325053754 0
@@ -185,7 +185,7 @@
 165C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\stable\number\epsilon.js132956381949345669 0
 158C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\utils\src\blob.js132956311318053760 0
 140C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\src\js\controller.js132959709098986534 0
-135C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\src\js\model.js132959713062018435 0
+135C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\src\js\model.js132959742255736075 0
 192C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_copy.1132956311324683780 0
 166C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\core\lib\public\Bundle.js132956311327383758 0
 163C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\lines-and-columns\package.json132956311315833755 0
@@ -2307,7 +2307,7 @@
 177C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\workers\lib\process\ProcessWorker.js132956311326093770 0
 165C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\proposals\promise-try.js132956381981095664 0
 159C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\nan\doc\object_wrappers.md132956311328513771 0
-142C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\dist\index.e37f48ea.js132959712661555205 0
+142C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\dist\index.e37f48ea.js132959742258305790 0
 163C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\core-js\stable\regexp\index.js132956381972085670 0
 180C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\reporter-dev-server\src\serverErrors.js132956311319703756 0
 154C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\nan\doc\persistent.md132956311328593759 0
@@ -7232,7 +7232,7 @@
 165C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\events\lib\Disposable.js132956311315153818 0
 155C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\diagnostic\lib132956311319233751 1
 164C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\diagnostic\package.json132956311318763893 0
-146C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\dist\index.e37f48ea.js.map132959712661625225 0
+146C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\dist\index.e37f48ea.js.map132959742258345821 0
 156C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\diagnostic\test132956311317643780 1
 173C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\diagnostic\test\markdown.test.js132956311317923753 0
 169C:\Users\t-jandrade\OneDrive - Asseco PST\Documentos\GitHub\asseco\complete-javascript-course-master\18-forkify\starter\node_modules\@parcel\diagnostic\lib\diagnostic.js132956311315163755 0
