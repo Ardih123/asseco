@@ -1,13 +1,18 @@
+.pages {
+}
+
 .pokemons {
-  width: 50%;
-  left: 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: lightgrey;
+  padding: 10px;
 }
 
 .box {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 25%;
   text-align: center;
   margin-bottom: 15px;
+  margin-right: 15px;
 }
 
 .info {
@@ -16,9 +21,9 @@
 }
 
 .split {
+  margin-top: 20px;
   position: absolute;
-  top: 0;
-  padding-top: 60px;
+  width: 45%;
 }
 
 /*  Escrever CSS AQUI EM CIMA 👆👆👆👆👆👆 */

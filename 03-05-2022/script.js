@@ -3,7 +3,7 @@ const pokemonListUrl = "https://pokeapi.co/api/v2/pokemon?limit=150";
 const div = document.querySelector(".pokemons");
 const pageNumber = document.querySelector(".pages");
 const searchBar = document.querySelector(".search");
-const img = document.querySelector(".img");
+const img = document.querySelectorAll(".img");
 const pokemonInfo = document.querySelector(".info");
 
 const getPokemon = async function () {
@@ -14,7 +14,7 @@ const getPokemon = async function () {
   console.log(data);
   console.log(data.results.length);
 
-  for (let i = data.results.length - 1; i > 0; i--) {
+  for (let i = data.results.length - 1; i >= 0; i--) {
     //display page number
     const inicio = (data.results.length - 1) * 18;
     const fim = data.results.length * 18;
@@ -27,12 +27,19 @@ const getPokemon = async function () {
     const dataPic = await resPic.json();
 
     //console.log("data pic");
-    //console.log(dataPic.types[0].type.name);
+    //console.log(dataPic);
+    // console.log(
+    //   data.results[i].name.split("")[0].toUpperCase() +
+    //     data.results[i].name.slice(1)
+    // );
 
     //display on site
     const html = `
     <div class="box">
-  <div class="type-${dataPic.types[0].type.name}">${data.results[i].name}</div>
+  <div class="type-${dataPic.types[0].type.name}">${
+      data.results[i].name.split("")[0].toUpperCase() +
+      data.results[i].name.slice(1)
+    }</div>
   <img class="img" src="${
     dataPic.sprites.front_default
   }" width="100" height="100" value="${i + 1}">
@@ -73,18 +80,21 @@ searchBar.addEventListener("click", async function (e) {
 });
 
 //get details pokemon
-img.addEventListener("click", async function (e) {
-  if (!e.value) return;
+img.forEach((element, i, array) => {
+  element.addEventListener("click", function (e) {
+    //if (!e.value) return;
 
-  console.log(e);
+    console.log(e);
+    console.log("working");
 
-  const resPic = await fetch(`https://pokeapi.co/api/v2/pokemon/${e.value}/`);
-  const dataPic = await resPic.json();
+    //const resPic = await fetch(`https://pokeapi.co/api/v2/pokemon/${e.value}/`);
+    //const dataPic = await resPic.json();
 
-  const html = `
+    const html = `
   <div class="type-${dataPic.types[0].type.name}">${data.results[0].name}</div>
   
   `;
 
-  pokemonInfo.insertAdjacentHTML("afterbegin", html);
+    pokemonInfo.insertAdjacentHTML("afterbegin", html);
+  });
 });
